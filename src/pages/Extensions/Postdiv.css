@@ -1,0 +1,50 @@
+.postdiv{
+  
+ 
+    justify-content: center;
+   text-align: center;
+   background-color: rgb(13, 99, 42);
+
+ 
+}
+
+
+.File{
+  
+    color: red;
+    height: 20px;
+    width: auto;
+    display: none;
+   
+  
+}
+.Button{
+    margin-right: 5%;
+    text-align: center;
+    margin-left: 10%;
+}
+.secpostbtn{
+    margin-left: 10%;
+background-color: red;
+text-align: right;
+
+}
+
+.EMOJI{
+
+    height: auto;
+}
+.radiodiv{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+p{
+    color: rgb(248, 10, 30);
+   
+
+}
+.Filelabel{
+    color: red;
+}

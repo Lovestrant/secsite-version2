@@ -1,0 +1,94 @@
+.AppBar, .ToolBar{
+    background-color: black;
+
+    width: auto;
+   
+
+  
+  
+  
+}
+.Typography{
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    margin-left: 0px;
+    
+
+}
+h1{
+    color: red;
+    font-size: 30px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    text-align: center;
+   
+}
+.btnsearch{
+    
+    color: red;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    background-color: gray;
+    border-color: transparent;
+    width: auto;
+    margin-left: 0%;
+    display: flex;
+     padding-top: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border-radius: 50px;
+    text-align: left;
+   
+    
+   
+   
+}
+.searchdiv{
+  display: flex;
+    text-align: center;
+   margin-left: 10%;
+}
+
+.nav{
+    background-color:black;
+    
+   
+    width: auto;
+
+   
+
+}
+.nav-link{
+   
+
+    font-size: 15px;
+  
+    margin-top: 10px;
+    text-align: center;
+    border: transparent;
+    color: yellow;
+    text-align: left;
+    width: fit-content;
+  
+  
+    
+}
+a.main-nav-active{
+    color: red;
+
+}
+a:hover.nav-link{
+ color: green; 
+}
+button{
+    background-color: indigo;
+    border-radius: 10px;
+   text-align: center;
+   margin-left: 4%;
+   margin-right: 4%;
+   margin-top: 10px;
+}
