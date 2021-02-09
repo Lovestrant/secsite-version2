@@ -1,17 +1,19 @@
-.AppBar, .ToolBar{
+.AppBar{
     background-color: black;
-
+  
     width: auto;
-   
+    content: 100%;
 
-  
-  
-  
+}
+.ToolBar{
+    width: auto;
+    background-color: black;
+    content: 100%;
 }
 .Typography{
     width: 100%;
     justify-content: center;
-    text-align: left;
+   
     margin-left: 0px;
     
 
@@ -21,7 +23,7 @@ h1{
     font-size: 30px;
     margin-bottom: 5px;
     background-color: transparent;
-    text-align: center;
+    text-align: left;
    
 }
 .btnsearch{
@@ -32,34 +34,23 @@ h1{
     margin-bottom: 0px;
     background-color: gray;
     border-color: transparent;
-    width: auto;
-    margin-left: 0%;
-    display: flex;
+
+    margin-left: 30%;
+  
      padding-top: 10px;
-}
-input{
-    width: 80%;
-    height: 40px;
-    border-radius: 50px;
-    text-align: left;
-   
+     text-align: right;
+     
     
-   
-   
 }
+
 .searchdiv{
-  display: flex;
-    text-align: center;
-   margin-left: 10%;
-}
+    display: flex;
+      
+     margin-left: 2%;
+  }
 
 .nav{
     background-color:black;
-    
-   
-    width: auto;
-
-   
 
 }
 .nav-link{
@@ -88,7 +79,14 @@ button{
     background-color: indigo;
     border-radius: 10px;
    text-align: center;
-   margin-left: 4%;
-   margin-right: 4%;
+   margin-left: 2%;
+   margin-right: 2%;
    margin-top: 10px;
 }
+
+.postsomething{
+    margin-left: 20%;
+    color: white;
+ 
+}
+

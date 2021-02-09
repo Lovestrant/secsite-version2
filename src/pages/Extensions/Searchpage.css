@@ -1,0 +1,20 @@
+.Searchinput{
+    
+    border-radius: 0px;
+    
+    margin-left: 20px;
+
+}
+.searchAppBar{
+    background-color: rgba(44, 40, 40, 0.911);
+}
+.paragraphHeader{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.searchAppBar{
+    background-color: rgba(184, 84, 84, 0.459);
+    text-align: center;
+    justify-content: left;
+}

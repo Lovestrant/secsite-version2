@@ -2,7 +2,7 @@ import React from 'react'
 import './Mainpage.css'
 import Topheader from './Extensions/Topheader'   
 
-import Mainbody from './Mainbody'
+import Mainbody from './Extensions/Mainbody'
 
 function Mainpage() {
     return (

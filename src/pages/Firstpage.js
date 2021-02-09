@@ -13,10 +13,10 @@ function Firstpage() {
              <AppBar className="AppBar" position="sticky">
             <ToolBar className="ToolBar">
                 <Typography className="Typography">
-            <h1>
+            <h2>
                 Welcome to<br></br>
                 SecSitee
-         </h1>
+         </h2>
 
             </Typography>
             </ToolBar>
@@ -25,7 +25,7 @@ function Firstpage() {
         </AppBar>
       
         <div className="firsttext">
-             <h2>Post anonymously.</h2>
+             <label style={{fontSize:20}}>Post anonymously.</label>
         </div>
             <div className="secondtext">
                 <h3>The SecSitee is the site where your anonymity is guaranteed.</h3>

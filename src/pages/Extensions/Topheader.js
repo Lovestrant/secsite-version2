@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import './Topheader.css'
-import Postdiv from './Postdiv' 
+
 import Slide from '@material-ui/core/Slide';
 import {NavLink} from 'react-router-dom'
 import Search from '@material-ui/icons/Search'
@@ -38,12 +38,14 @@ export default function Topheader(props) {
             <ToolBar className="ToolBar">
                
                 <Typography className="Typography">
+                <div className="searchdiv">
                         <h1>SecSitee</h1>
-                        <div className="searchdiv">
-                        <input type="text" placeholder="Search SecSitee" />
-              <button className="btnsearch"><Search /></button>
-              </div> 
-                
+                       
+                <NavLink to="/Searchpage"><button className="btnsearch"><Search /></button></NavLink> 
+                <NavLink to="/Postdiv"> <button className="postsomething"> post something</button></NavLink>
+              
+                        </div>  
+
                     <div className="nav">
                            <button><NavLink to="/Mainpage"className="nav-link" activeClassName="main-nav-active">General</NavLink> </button> 
                            <button><NavLink  to="/Loveandlife" className="nav-link" activeClassName="main-nav-active"> Love&life</NavLink></button> 
@@ -54,13 +56,9 @@ export default function Topheader(props) {
                             <button><NavLink  to="/Others" className="nav-link" activeClassName="main-nav-active"> Others</NavLink></button>
                            
                         </div>
-                
+                        
                  </Typography>
-              
-        
             </ToolBar>
-        <Postdiv/>
-        
         </AppBar>
       </HideOnScroll>
    
